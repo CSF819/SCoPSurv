@@ -106,13 +106,3 @@ BRCA、LUAD 的早期 checkpoint 配有原始网络快照和 legacy slot compres
 ```
 
 评估默认输出到 `results/checkpoint_evaluation.csv`，同时记录 checkpoint 内的历史分数和本次重新计算的分数。加载与前向检查不计算真实患者的 C-index。
-
-## 测试
-
-```powershell
-& 'E:\anaconda3\envs\csfpytorch\python.exe' -B -m unittest tests.test_cfsurv_quality -v
-```
-
-## GitHub 上传
-
-基因表和 checkpoint 已配置 Git LFS。请按 [`UPLOAD_TO_GITHUB.md`](UPLOAD_TO_GITHUB.md) 使用 Git 命令上传，克隆后执行 `git lfs pull` 获取完整数据与权重。
