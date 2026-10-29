@@ -1,0 +1,297 @@
+[
+  {
+    "dataset": "blca",
+    "slide_rows": 437,
+    "csv_columns": 20404,
+    "csv_patients": 373,
+    "eligible_patients_after_loader_filter": 373,
+    "signature_group_dims": [
+      94,
+      334,
+      521,
+      468,
+      1496,
+      479
+    ],
+    "signature_total_dim": 3392,
+    "folds": [
+      {
+        "fold": 0,
+        "train_patients": 298,
+        "validation_patients": 75,
+        "eligible_patients_outside_split": 0,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 1,
+        "train_patients": 298,
+        "validation_patients": 75,
+        "eligible_patients_outside_split": 0,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 2,
+        "train_patients": 298,
+        "validation_patients": 75,
+        "eligible_patients_outside_split": 0,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 3,
+        "train_patients": 299,
+        "validation_patients": 74,
+        "eligible_patients_outside_split": 0,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 4,
+        "train_patients": 299,
+        "validation_patients": 74,
+        "eligible_patients_outside_split": 0,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      }
+    ],
+    "bytes": 65646432
+  },
+  {
+    "dataset": "brca",
+    "slide_rows": 1023,
+    "csv_columns": 20980,
+    "csv_patients": 957,
+    "eligible_patients_after_loader_filter": 738,
+    "signature_group_dims": [
+      91,
+      353,
+      553,
+      480,
+      1566,
+      480
+    ],
+    "signature_total_dim": 3523,
+    "folds": [
+      {
+        "fold": 0,
+        "train_patients": 590,
+        "validation_patients": 147,
+        "eligible_patients_outside_split": 1,
+        "split_ids_outside_eligible_cohort": 219,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 1,
+        "train_patients": 590,
+        "validation_patients": 147,
+        "eligible_patients_outside_split": 1,
+        "split_ids_outside_eligible_cohort": 219,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 2,
+        "train_patients": 593,
+        "validation_patients": 144,
+        "eligible_patients_outside_split": 1,
+        "split_ids_outside_eligible_cohort": 219,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 3,
+        "train_patients": 587,
+        "validation_patients": 150,
+        "eligible_patients_outside_split": 1,
+        "split_ids_outside_eligible_cohort": 219,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 4,
+        "train_patients": 588,
+        "validation_patients": 149,
+        "eligible_patients_outside_split": 1,
+        "split_ids_outside_eligible_cohort": 219,
+        "train_val_overlap": 0
+      }
+    ],
+    "bytes": 155454835
+  },
+  {
+    "dataset": "gbmlgg",
+    "slide_rows": 1042,
+    "csv_columns": 18303,
+    "csv_patients": 573,
+    "eligible_patients_after_loader_filter": 573,
+    "signature_group_dims": [
+      84,
+      314,
+      498,
+      415,
+      1396,
+      428
+    ],
+    "signature_total_dim": 3135,
+    "folds": [
+      {
+        "fold": 0,
+        "train_patients": 455,
+        "validation_patients": 114,
+        "eligible_patients_outside_split": 4,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 1,
+        "train_patients": 455,
+        "validation_patients": 114,
+        "eligible_patients_outside_split": 4,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 2,
+        "train_patients": 455,
+        "validation_patients": 114,
+        "eligible_patients_outside_split": 4,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 3,
+        "train_patients": 455,
+        "validation_patients": 114,
+        "eligible_patients_outside_split": 4,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 4,
+        "train_patients": 456,
+        "validation_patients": 113,
+        "eligible_patients_outside_split": 4,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      }
+    ],
+    "bytes": 152962703
+  },
+  {
+    "dataset": "luad",
+    "slide_rows": 516,
+    "csv_columns": 21155,
+    "csv_patients": 453,
+    "eligible_patients_after_loader_filter": 453,
+    "signature_group_dims": [
+      89,
+      334,
+      534,
+      471,
+      1510,
+      482
+    ],
+    "signature_total_dim": 3420,
+    "folds": [
+      {
+        "fold": 0,
+        "train_patients": 362,
+        "validation_patients": 90,
+        "eligible_patients_outside_split": 1,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 1,
+        "train_patients": 361,
+        "validation_patients": 91,
+        "eligible_patients_outside_split": 1,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 2,
+        "train_patients": 361,
+        "validation_patients": 91,
+        "eligible_patients_outside_split": 1,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 3,
+        "train_patients": 362,
+        "validation_patients": 90,
+        "eligible_patients_outside_split": 1,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 4,
+        "train_patients": 362,
+        "validation_patients": 90,
+        "eligible_patients_outside_split": 1,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      }
+    ],
+    "bytes": 78170464
+  },
+  {
+    "dataset": "ucec",
+    "slide_rows": 539,
+    "csv_columns": 9081,
+    "csv_patients": 480,
+    "eligible_patients_after_loader_filter": 480,
+    "signature_group_dims": [
+      3,
+      24,
+      21,
+      22,
+      65,
+      15
+    ],
+    "signature_total_dim": 150,
+    "folds": [
+      {
+        "fold": 0,
+        "train_patients": 384,
+        "validation_patients": 96,
+        "eligible_patients_outside_split": 0,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 1,
+        "train_patients": 384,
+        "validation_patients": 96,
+        "eligible_patients_outside_split": 0,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 2,
+        "train_patients": 384,
+        "validation_patients": 96,
+        "eligible_patients_outside_split": 0,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 3,
+        "train_patients": 384,
+        "validation_patients": 96,
+        "eligible_patients_outside_split": 0,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      },
+      {
+        "fold": 4,
+        "train_patients": 384,
+        "validation_patients": 96,
+        "eligible_patients_outside_split": 0,
+        "split_ids_outside_eligible_cohort": 0,
+        "train_val_overlap": 0
+      }
+    ],
+    "bytes": 9915585
+  }
+]

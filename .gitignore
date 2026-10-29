@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.codex/
+.agents/
+results/
+outputs/
+runs/
+logs/
+*.log
+events.out.tfevents.*
+.DS_Store
+Thumbs.db
+
+# Keep the distributed gene tables, splits, and best checkpoints tracked.
